@@ -1,0 +1,40 @@
+.chat-user-msg{
+	margin-bottom:5px;
+	width:100%;
+}
+
+.chat-user-msg img{
+	float:left;
+	margin-right:5px;
+}
+.chat-user-list .chat-user-list-item{
+	width:100%;
+}
+.chat-user-list .chat-user-list-item img{
+	float:left;
+	margin-right:5px;
+}
+.chat-welcome{
+	
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
