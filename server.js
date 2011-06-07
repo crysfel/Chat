@@ -20,7 +20,7 @@ var Server = {
 			//Connect.conditionalGet(), // Add HTTP 304 responses to save even more bandwidth.
 			//Connect.cache(), // Add a short-term ram-cache to improve performance.
 			//Connect.gzip(), // Gzip the output stream when the browser wants it.
-			Connect.staticProvider("webapp") // Serve all static files in the current dir.
+			Connect.static(__dirname + "webapp") // Serve all static files in the current dir.
 		);
 		
 		this.socket = io.listen(this.server);
