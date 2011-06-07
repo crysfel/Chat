@@ -1,9 +1,14 @@
 Install
 -----------------------
-Download the ExtJS library from the offical page, create a "lib" folden inside the webapp folder and copy the ExtJS library there.
+Download the ExtJS library from the offical page, create a "lib" folder inside the webapp folder and copy the ExtJS library there.
 
 Install Node.js, Sencha Connect and Socket.io, then run the server with the following command:
 
 node src/server.js
 
 Open your favorite browser and go to http://localhost:8080, you will see a blue window asking for a username and you email.
+
+
+Testing the app
+------------------------
+You can test this application at http://crysfel.no.de/
