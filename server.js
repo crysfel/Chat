@@ -81,4 +81,4 @@ var Chat = {
 }
 
 Server.init();
-Server.start(process.env.PORT || 8001));
+Server.start(process.env.PORT || 8001);
