@@ -2,9 +2,13 @@ Install
 -----------------------
 Download the ExtJS library from the offical page, create a "lib" folder inside the webapp folder and copy the ExtJS library there.
 
-Install Node.js, Sencha Connect and Socket.io, then run the server with the following command:
+Install Node.js: http://nodejs.org/ 
+Sencha Connect: https://github.com/senchalabs/connect
+Socket.io: http://socket.io/
 
-node src/server.js
+When everything is ready, run the server with the following command:
+
+node server.js
 
 Open your favorite browser and go to http://localhost:8080, you will see a blue window asking for a username and you email.
 
